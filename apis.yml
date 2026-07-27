@@ -1,7 +1,29 @@
 aid: grove-biopharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grove-biopharma.png
 name: Grove Biopharma
-description: Grove Biopharma is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Grove Biopharma is a Chicago-based biopharmaceutical company developing
+  therapeutics that target intracellular protein-protein interactions implicated
+  in cancer, neurodegenerative diseases, and rare disorders. The company
+  pioneered Bionic Biologics, hybrid biomolecules that integrate principles of
+  biologic and synthetic design to achieve cell permeability with customizable,
+  modular construction that can disrupt or degrade disease-causing proteins.
+  Grove has demonstrated proof-of-concept against targets including AR/AR-V7,
+  SHOC2, MYC, TAU, and KEAP1/NRF2. Founded in 2025 and led by CEO Geoffrey Duyk,
+  the company raised a $30M Series A in April 2025 and is backed by DCVC. Grove
+  is a therapeutics company with no public developer API surface; this profile
+  captures its identity for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/grove-biopharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,39 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-hq: Chicago, IL, USA
+x-founded: '2025'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biopharma
+- Biotechnology
+- Therapeutics
+- Drug Discovery
+- Life Sciences
+- Oncology
+- Chicago
 apis: []
+common:
+- type: Website
+  url: https://grovebiopharma.com
+- type: Blog
+  url: https://grovebiopharma.com/news-and-publications
+- type: About
+  url: https://grovebiopharma.com/platform
+- type: Careers
+  url: https://grovebiopharma.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/grove-biopharma-inc/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
